@@ -1,0 +1,181 @@
+body {
+    font-family: arial;
+}
+
+hr{
+    margin: 0 auto;
+}
+
+/* ----------------------------HEADER-----------------------*/
+
+header {
+    background-color: #eae5e5;
+    color: #4d4d4d;
+    padding-top: 30px;
+}
+
+.infohead {
+    float: left;
+    width: 40%;
+    /*text-align: center;*/
+}
+.infohead h1 {
+    margin: 0 auto;
+    font-family: impact;
+}
+.infohead h2 {
+    margin: 0 auto;
+        font-family: NONE;
+}
+
+nav {
+    float: right;
+    width: 60%;
+}
+
+.clearfix {
+    clear: both; 
+}
+
+.container {
+    width: 840px;
+    margin: 0 auto; /*отступ внизу и ввержу 0, авто - боковые расставятся автоматически чтоб выровнять по центру*/
+}
+
+nav ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+   
+}
+
+nav ul li a {
+    color: #4d4d4d;
+    text-decoration: none;
+    padding: 15px;
+    display: block; /*ширина и высота родительского блока*/
+}
+    
+    
+    /*--------------------------------Info--------------------------------------*/
+    
+main{
+    color: #4d4d4d;
+}
+.info1 {
+    background-color: #eae5e5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.photo {
+    float: left;
+    width: 45%;
+}
+.photo img {
+    width:345px;
+    padding-top: 30px;
+}
+
+.info {
+    float: right;
+    width: 55%;
+}
+
+.circles a img {
+    width: 125px;
+}
+
+.circles ul {
+    list-style: none;
+        margin: 0;
+    padding-left: 0;
+}
+
+.circles ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+/* ---------------------------------------EDU, work, skills --------------------------------*/
+
+.edu {
+    padding-top: 60px;
+    background-color: #eae5e5;
+}
+
+.circle {
+    float:left;
+    width: 30%;
+    padding-top: 40px;
+}
+.textinfo {
+    float:right;
+    width: 70%;
+}
+
+.circle img {
+    width: 120px;
+}
+
+.work {
+    padding-top: 60px;
+    background-color: #eae5e5;
+}
+
+.skill {
+    padding-top: 60px;
+    background-color: #eae5e5;
+}
+
+
+
+/*--------------------------------------------footer--------------------------------*/
+
+.contacts {
+    padding-top: 50px;
+    background-color: #e83556;
+}
+
+.item {
+    width: 24%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.item .fa{
+    float: left;
+    width: 15%;
+    font-size: 35px;
+    color: #61d0d4;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.item .footertext{
+    margin: 0 auto;
+    float:right;
+    padding-top: 10px;
+    width: 80%;
+    height: 40px;
+    overflow: hidden;
+    color: white;
+    font-size: 13px;
+}
+
+.item .smlinks .fa {
+    font-size: 20px;
+    color: #d1c926;
+}
+
+.item .footertext h3 {
+    margin: 0 auto;
+}
+.item .footertext p {
+    margin: 0 auto;
+    
+}
